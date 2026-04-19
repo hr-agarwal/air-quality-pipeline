@@ -30,27 +30,27 @@ A real-time data engineering project that collects, processes, and visualizes ai
 
 ## Project Structure
 air_quality_pipeline/
-│
+│                                                                                                                          
 ├── kafka_pipeline/
 │ ├── producer.py
-│ ├── consumer.py
+│ ├── consumer.py                                                                                                           
 │
 ├── processing/
 │ └── transform.py
-│
+│                                                                                                                          
 ├── storage/
 │ └── db.py
-│
+│                                                                                                                           
 ├── dashboard/
 │ └── app.py
-│
+│                                                                                                                            
 ├── data/
 │ ├── raw/
 │ └── processed/
-│
+│                                                                                                                          
 ├── config/
 │ └── config.py
-│
+│                                                                                                                          
 ├── docker-compose.yml
 ├── requirements.txt
 ├── README.md
